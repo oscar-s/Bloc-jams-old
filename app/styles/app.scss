@@ -20,3 +20,8 @@ body, html {
   margin-bottom: 0;
 }
 
+$rectangle-color: #ff2020;
+
+div.rectangle {
+  background-color: lighten($rectangle-color, 0.2);
+}
